@@ -1,0 +1,213 @@
+/*
+ * Globals
+ */
+
+
+h1 {
+  color: indigo;
+  font-weight: 700;
+}
+
+h2, h3, h4, h5, h6, .h2, .h3, .h4, .h5, .h6 {
+    color: indigo;
+    font-weight: 700;
+       margin-top:2rem;
+}
+
+
+
+ footer h5 {
+   margin-top:0;
+ }
+
+p {
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+
+
+/* LINKS -------------- */
+
+a, a:focus {
+    color: #343a40;
+    font-weight: 700;
+
+}
+
+a:hover {
+   color: #343a40;
+   font-weight: 700;
+   background-color: #82D7BF;
+ }
+
+
+
+ footer a:hover {
+    color: #343a40;
+    font-weight: 700;
+    background-color: transparent;
+  }
+
+
+
+/* END LINKS ------------ */
+
+
+dt {
+    color: indigo;
+}
+
+
+
+/* GRADIENTS -------------------- */
+/* Background colours use hex values. Using srgb, transparency breaks when scrolling */
+
+.bg-gradient {
+    background-image: linear-gradient(40deg, #5ee7df 0%, #b490ca 100%);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+/*
+ * Base structure
+ */
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    display: -ms-flexbox;
+    color: indigo;
+}
+
+
+
+
+/*
+* Navigation
+*/
+
+.masthead-brand {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 0rem;
+}
+
+
+.nav-masthead {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.masthead-brand a {
+    color: indigo;
+    text-decoration: none;
+    background-color: transparent;
+
+}
+
+/*
+.masthead-brand a:hover {color:#82D7BF;
+}
+*/
+
+.nav-masthead .nav-link {
+    padding: .25rem 0;
+    color: indigo;
+    font-weight: 700;
+    background-color: transparent;
+    border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link + .nav-link {
+    margin-left: 1rem;
+}
+
+.nav-masthead .active {
+    color: indigo;
+    border-bottom-color: indigo;
+}
+
+.nav-masthead .nav-link:hover, .nav-masthead .nav-link:focus {
+    color: indigo;
+    border-bottom-color: #82d7bf;
+}
+
+
+
+/* FOR NAV TO WORK ON SMALL MOBILE SCREENS ------------ */
+
+@media (min-width: 48em) {
+    .masthead-brand {
+        float: left;
+    }
+    .nav-masthead {
+        float: right;
+    }
+}
+
+
+
+
+
+/* Home page ------------------------ */
+
+.cover-container {
+    max-width: 42em;
+}
+
+
+
+/* Home page type ---------------------*/
+
+.cover-heading {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.lead {
+    color: indigo;
+    font-weight: 600;
+}
+
+/* Button --------------------------- */
+/* Custom default button */
+
+.btn-secondary, .btn-secondary:hover, .btn-secondary:focus {
+    color: #82d7bf;
+    font-weight: 700;
+    background-color: indigo ;
+    border: .05rem solid indigo;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show > .btn-secondary.dropdown-toggle {
+    color: indigo;
+    background-color: #82d7bf;
+    border-color: #82d7bf;
+}
+
+
+
+
+
+
+
+
+
+/* LIST OF LINKS ON PAGE PAGE ---------------- */
+
+.list-group-item-action {
+    color: black;
+    font-weight: 700;
+
+}
+
+a.bg-light:focus, a.bg-light:hover, button.bg-light:focus, button.bg-light:hover {
+    color: indigo;
+    background-color: #82d7bf !important;
+}

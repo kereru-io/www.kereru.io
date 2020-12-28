@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<body class="d-flex flex-column h-100 text-body">
+	{% include nav.html %}
+
+	<div class="container">
+		<h1>{{ page.title }}</h1>
+		{{ content }}
+	</div>
+
+	<footer class="footer mt-auto bg-gradient">
+		<div class="container-fluid mx-auto pt-3 " style="max-width: 660px; ">
+			<div class="row py-3">
+
+				<div class="col">
+					<h5>Resources</h5>
+					<ul class="list-unstyled text-small mb-8">
+						<li><a href="/quickstart/">Quick Start</a></li>
+						<li><a href="/documentation/">Documentation</a></li>
+						<li><a href="/downloads/">Downloads</a></li>
+					</ul>
+				</div>
+
+				<div class="col">
+					<h5>About</h5>
+					<ul class="list-unstyled text-small">
+						<li><a href="/why/">Why</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	</div>
+</body>
